@@ -1,0 +1,28 @@
+export const pricesPage = {
+     drugName: '[class="cp-offer-item__drug-name"]', 
+     drugPrice: '[class*="cp-offer-item__active"] [class="cp-offer-item__new-prices"]', 
+     tabPrices: '[class="cp-tabs__item-link"]:nth-of-type(1)', 
+     offersBlock: '[data-e2e="components.offer.offersBrowser"]', 
+     defaultSortingTab: '[class*="cp-dropdown-slot-text"]', 
+    // firstDrugStore: '[data-e2e="components.offer.offerItemV2"]:nth-of-type(1)', 
+    // secondDrugStore: '[data-e2e="components.offer.offerItemV2"]:nth-of-type(2)',
+    // twentiethDrugStore: '[data-e2e="components.offer.offerItemV2"]:nth-of-type(20)', 
+    // twentyfirstDrugStore: '[data-e2e="components.offer.offerItemV2"]:nth-of-type(21)', 
+    // fortiethDrugStore: '[data-e2e="components.offer.offerItemV2"]:nth-of-type(40)', 
+    // buttonDownloadMore: '[class*="cp-btn-primary"]', 
+    // tabInOhterCities: '[class="cp-offers-browser__in-other-cities"]', 
+    // buttonRoute: '[class*="cp-offer-item__badge-wrapper"] [class*="cp-badge"]:nth-of-type(1)', 
+    // routeModalWindow: '[class*="cp-modal-direction__absolute"]',
+    // buttonCloseRouteModalWindow: '[class*="cp-modal-direction__title"] [class*="cp-btn"]', 
+    // routeLine: '[stroke="red"]', 
+    // buttonDecrease: '[class*="cp-quantity-panel-btn"]:nth-of-type(1)', 
+    // buttonIncrease: '[class*="cp-quantity-panel-btn"]:nth-of-type(2)', 
+    // counter: '[class*="cp-quantity-panel-counter"]', 
+    // buttonInBasket: '[class="cp-block"] [class*="cp-badge"]', 
+    // buttonSorting: 'div.cp-offers-browser__wrapper-navigation > div:nth-child(2) > div', 
+    // dropDownSorting: '[class*="cp-dropdown-opened"]', 
+    // sortingFromCheap: '[class*="cp-dropdown-menu__item-text"]:nth-of-type(1)', 
+    // drugPrice2: ' [class*="cp-offer-item__price-text"] [class="cp-offer-item__new-prices"]:nth-of-type(2)', 
+    // activeStoreDrugCard: '[class*="cp-offer-item__active"]'
+    
+}
